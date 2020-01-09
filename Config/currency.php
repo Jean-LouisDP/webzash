@@ -44,7 +44,7 @@ function curreny_format($input) {
 			return _currency_3_3_style($input);
 			break;
 		default:
-			die("Invalid curreny format selected.");
+			die("Invalid currency format selected.");
 	}
 }
 
